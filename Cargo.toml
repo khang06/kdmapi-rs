@@ -3,8 +3,9 @@ name = "kdmapi"
 version = "0.1.0"
 authors = ["Khang <khang06@users.noreply.github.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "very minimal bindings for KDMAPI"
+license = "MIT"
+repository = "https://github.com/khang06/kdmapi-rs"
 
 [dependencies]
 winapi = { version = "0.3", features = ["libloaderapi", "errhandlingapi", "sysinfoapi"] }
